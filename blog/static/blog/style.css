@@ -53,3 +53,41 @@ h1, h2, h3, h4 {
 .post h1 a, .post h1 a:visited {
     color: #000000;
 }
+
+.btn-outline {
+  color: #ff9400;
+  background-color: #ffffff;
+  border-color: #ff9400;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+   font-family: 'Lobster';
+}
+
+.btn-outline {
+  color: #ff9400;
+  background-color: #ffffff;
+  border-color: #ff9400;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline.active {
+  background: #ff9400;
+  color: #ffffff;
+  border-color: #ff9400;
+    
+  font-family: 'Lobster';
+  
+}
+
+.fa-pencil{
+
+    color:#ff9400;
+}
+
+.fa-pencil.active{
+    color:#fff;
+}
